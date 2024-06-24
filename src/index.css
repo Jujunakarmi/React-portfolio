@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: #540B0E;
+  --background-color: #B4CDED;
+}
+body {
+  margin: 0;
+  margin-bottom: 100px !important;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:rgb(12, 22, 30);
+}
+
+ .img-thumbnail {
+    width: 25vh;
+    float: left;
+    margin: 0 5px 0 5px;
+    border-radius: 100px;
+  }
+
+  h2{
+    font-size: 50px;
+  }
+  
+  #about{
+    font-size: 50px;
+    margin-left: 20px;
+  }
+  #about-me{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .socials {
+    height: 200px;
+} 
+
+.card-img-top{
+  width: 460px;
+}
+
+
+
+  

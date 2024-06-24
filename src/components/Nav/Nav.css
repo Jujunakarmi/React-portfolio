@@ -1,0 +1,13 @@
+.navbar{
+    background-color:#344966 ;
+}
+
+.navbar-nav{
+margin-left: 45rem;
+
+}
+
+.nav-link{
+    margin-left: 50px;
+    font-size: 25px;
+}
