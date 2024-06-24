@@ -3,11 +3,21 @@
 }
 
 .navbar-nav{
-margin-left: 45rem;
+margin-left: 35rem;
 
 }
 
-.nav-link{
+.nav{
     margin-left: 50px;
     font-size: 25px;
 }
+
+a.nav{
+   color:  #F0F4EF;
+   transition: 1s;
+   text-decoration: none;
+}
+
+a.nav:hover{
+    color: #7eabe6;
+ }

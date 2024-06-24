@@ -4,19 +4,15 @@
 }
 
 :root {
-  --primary-color: black;
-  --secondary-color: #540B0E;
   --background-color: #B4CDED;
 }
 body {
   margin: 0;
-  margin-bottom: 100px !important;
+  margin-bottom: 100px;
   padding: 0;
   background-color: var(--background-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color:rgb(12, 22, 30);
+
 }
 
  .img-thumbnail {
@@ -47,6 +43,7 @@ body {
 .card-img-top{
   width: 460px;
 }
+
 
 
 
