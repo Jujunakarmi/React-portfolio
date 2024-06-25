@@ -4,6 +4,7 @@ import workscheduler from "../../assets/workscheduler.png"
 import quiz from "../../assets/quiz.png"
 import texteditor from "../../assets/texteditor.png"
 import furfile from "../../assets/furfile.png"
+import "./Project.css"
 
 export default function Project() {
 
@@ -11,10 +12,10 @@ export default function Project() {
         <>
       <div>
         <h2>Bootcamp Portfolio</h2>
-        <p>
+        <p class='intro'>
           Applications created over the course of a 24-week Full-Stack Developer
           bootcamp. Starter code for several projects provided by the University
-          of Oregon.
+          North Carolina at Chapel Hill.
         </p>
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4 mx-auto">

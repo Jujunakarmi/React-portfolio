@@ -1,0 +1,45 @@
+h2{
+  margin: 20px;
+  text-align: center;
+}
+
+.intro{
+  margin-left:20px; 
+font-size: 20px;
+}
+
+.card {
+    margin: 10px 10px 10px 10px;
+    width: 30vh;
+    display: flex;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+  }
+  
+  .card-body {
+    margin: auto;
+  }
+  
+  .card-body p {
+    margin: 0;
+  }
+  
+  .card-footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #344966;
+    transition: 0s;
+
+  }
+  
+  .card-footer a:hover {
+    color:#5b81b6;
+  }

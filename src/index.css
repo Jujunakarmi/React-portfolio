@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
 
@@ -5,46 +7,62 @@
 
 :root {
   --background-color: #B4CDED;
+
 }
+
 body {
   margin: 0;
   margin-bottom: 100px;
   padding: 0;
   background-color: var(--background-color);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(#77a0d9, #d2ddea);
+  font-family: 'Lora', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
- .img-thumbnail {
-    width: 25vh;
-    float: left;
-    margin: 0 5px 0 5px;
-    border-radius: 100px;
-  }
-
-  h2{
-    font-size: 50px;
-  }
-  
-  #about{
-    font-size: 50px;
-    margin-left: 20px;
-  }
-  #about-me{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-  }
-
-  .socials {
-    height: 200px;
-} 
-
-.card-img-top{
-  width: 460px;
+.img-thumbnail {
+  width: 25vh;
+  float: left;
+  margin: 0 5px 0 5px;
+  border-radius: 100px;
 }
 
+h2 {
+  font-size: 50px;
+}
 
+#about {
+  font-size: 50px;
+  margin-left: 80px;
+  text-align: center;
 
+}
 
-  
+#about-me {
+  font-size: 25px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.socials {
+  height: 200px;
+}
+
+#exampleFormControlInput1,
+#exampleFormControlInput2,
+#exampleFormControlTextarea1 {
+  width: 50%;
+}
+
+.mb-3 {
+  margin-left: 500px;
+}
+
+.btn {
+  margin-left: 500px;
+}
+
+#header-resume{
+  font-size: 20px;
+  margin-left: 20px;
+}

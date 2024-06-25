@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+  
 .header{
     margin-left: 20px;
     color:#F0F4EF;
+}
+
+.header{
+    font-family:"Shadows Into Light";
+}
+
+span{
+    color:#33a7d9;
 }
 
 @media screen and (max-width: 768px) {

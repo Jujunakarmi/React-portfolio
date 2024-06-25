@@ -12,8 +12,9 @@ export default function AboutMe() {
         className="img-thumbnail"
         alt="profile picture"
       ></img>
-
-      <p id="about-me">
+      
+      <div id="about-me">
+      <p>
 
         Hello, My name is Juju Nakarmi.<br />
         I am currently studing full stack development at UNC chapel hill
@@ -27,9 +28,8 @@ export default function AboutMe() {
 
 
       </p>
+      </div>
     </div>
-
-
 
   )
 }

@@ -4,8 +4,8 @@ import resume from "../assets/resume.pdf"
 export default function Resume() {
   return (
     <div>
-      <h2>Resume</h2>
-      <p>
+      <h2 >Resume</h2>
+      <p id ='header-resume'>
         Click <a href={resume} target="_blank">here</a> to view my resume.
         <h3>Front-End Proficiencies</h3>
           <ul className="skills">
