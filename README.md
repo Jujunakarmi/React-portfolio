@@ -32,7 +32,7 @@ After cloning and installing it can run in localhost:3000.
 OR
 Direct Link for Netlify:
 ```
-https://main--stirring-buttercream-8654c6.netlify.app/resume
+https://main--stirring-buttercream-8654c6.netlify.app/
 ```
 
 
