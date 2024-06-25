@@ -6,7 +6,7 @@ export default function Resume() {
     <div>
       <h2 >Resume</h2>
       <p id ='header-resume'>
-        Click <a href={resume} target="_blank">here</a> to view my resume.
+        Click <a href={resume} target="_blank" download>here</a> to view my resume.
         <h3>Front-End Proficiencies</h3>
           <ul className="skills">
             <li>HTML</li>

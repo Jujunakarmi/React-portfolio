@@ -3,7 +3,7 @@
 }
 
 .navbar-nav{
-margin-left: 35rem;
+margin-left: 60%;
 
 }
 
@@ -26,12 +26,18 @@ a.nav:hover{
     #navbarSupportedContent{
         display: flex;
         flex-wrap:wrap;
+        
     }
+    .navbar{
+        width: 800px;
+      }
+    
+      .navbar-nav{
+        margin-left: 0;
+        
+        }
+
+
 }
 
- @media screen and (max-width: 768px) {
-    .navbar{
-      width: 800px;
-    }
-}
  

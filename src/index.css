@@ -54,15 +54,22 @@ h2 {
   width: 50%;
 }
 
-.mb-3 {
-  margin-left: 500px;
-}
 
-.btn {
-  margin-left: 500px;
-}
 
 #header-resume{
   font-size: 20px;
   margin-left: 20px;
 }
+
+
+@media screen and (min-width: 1024px) {
+ 
+ .mb-3 {
+  margin-left: 500px;
+}
+
+.btn {
+  margin-left: 500px;
+} 
+      
+    }
