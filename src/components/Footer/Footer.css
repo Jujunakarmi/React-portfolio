@@ -4,3 +4,9 @@
     align-items: last baseline;
     
 }
+
+@media screen and (max-width: 768px) {
+    .socials{
+     margin-left: 350px;
+  }
+  }

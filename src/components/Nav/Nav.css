@@ -21,3 +21,17 @@ a.nav{
 a.nav:hover{
     color: #7eabe6;
  }
+
+ @media screen and (max-width: 768px) {
+    #navbarSupportedContent{
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
+
+ @media screen and (max-width: 768px) {
+    .navbar{
+      width: 800px;
+    }
+}
+ 
